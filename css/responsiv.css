@@ -1,0 +1,176 @@
+
+@media (max-width:1024px){
+    .nav-btn{
+        display: none;
+    }
+    .hero-left{
+        margin: 0 auto;
+    }
+    .hero-right{
+        display: none;
+    }
+
+    .info{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+    .main-swipper{
+        display: flex;
+        flex-direction: column  ;
+        align-items: center;
+        gap: 38px;
+    }
+    .main-card-left{
+        width: 100%;
+    }
+    .customerSwiper {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:768px){
+    .hero-left{
+        margin: 0 auto;
+    }
+    .hero-right{
+        display: none;
+    }
+    .hero-card{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        align-items: center;
+        grid-gap: 5px;
+    }
+
+    .hero-img{
+        display: none;
+    }
+    .card-links{
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .hero-title{
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: -1px
+    }   
+
+    .logos-btn{
+        padding: 13px;
+    }
+
+    .nav-btns{
+        padding: 13px;
+    }
+
+    .heros-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+    }
+    .swiper-slide{
+        width: 334.54px !important; 
+        height: 380.06px !important;
+    }
+    
+    
+
+    .card-info{
+        padding-top: 20px;
+    }
+
+    .info-right{
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        grid-gap: 2px;
+    }
+
+    .drink-card{
+        display: grid;
+        grid-template-columns: repeat(3,4fr);
+        grid-gap: 8px;
+    }
+
+    .card-blog{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+        grid-gap: 40px;
+    }
+    .works-right{
+        display: none;
+    }
+
+    .caterly{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        grid-gap: 120px;
+    }
+
+    /* .main-swipper{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        grid-gap: 40px;
+    } */
+    .ms-5 {
+        margin-right: 22px;
+    }
+
+    .blog-title{
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 20px
+    }
+ 
+    @media (max-width:375px) {
+        .hero-left{
+            margin: 0 auto;
+        }
+        .hero-right{
+            display: none;
+        }
+    
+        .hero-title{
+            font-size: 32px;
+            line-height: 38px;
+            letter-spacing: -1px
+        }
+    
+    
+        .card-info{
+            padding-top: 20px;
+        }
+    
+        .info-titles{
+            font-size: 23px;
+            line-height: 46px;
+            letter-spacing: -1px
+        }
+        p{
+            font-size: 14px;
+            line-height: 22px;
+        }
+        
+        .info-right{
+            display: grid;
+            grid-template-columns: repeat(3,2fr);
+            grid-gap: 2px;
+        }
+
+        .drink-card{
+            display: grid;
+            grid-template-columns: repeat(2,6fr);
+            grid-gap: 8px;
+        }
+    
+    }
+
+
+
+
+
+   
+}

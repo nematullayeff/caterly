@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <link
+          rel="stylesheet"
+          href="./bootstrap-5.2.3-dist/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/responsiv.css" />
+        <title>Caterly</title>
+      </head>
+<body>
+       <!-- header -->
+       <header class="bg-warning p-2">
+        <section class="container-xxl">
+          <div class="hero d-flex align-items-xxl-center justify-content-between">
+            <div class="hero-left">
+              <a class="nav-link" href="#">We are rated 5 star on Google</a>
+            </div>
+            <div class="hero-right">
+              <ul class="nav-list">
+                <li>
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">FAQs</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">Become a Supplier</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">Event Catering</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </header>
+      <div class="bg-hero pt-3 pb-5">
+        <!-- logo -->
+        <section class="container-xxl mb-3 ">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <div class="d-flex align-items-center gap-3">
+                <button
+                  class="logo-menu navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#"
+                  ><img src="./img/Object.png" alt="logo"
+                /></a>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#"
+                      >Food & Drink</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">How it Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Why Caterly?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Catering Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Browse Suppliers</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="hero-btn">
+                <button class="nav-btn btn btn-dark rounded-5">Get quotes</button>
+                <a href="#">
+                  <button class="logo-btn btn d-flex align-items-center gap-2">
+                    <svg
+                      width="25"
+                      height="9"
+                      viewBox="0 0 25 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M24.1572 1.08862H1.15723"
+                        stroke="#191919"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M24.1572 8H1.15723"
+                        stroke="#191919"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+  
+                    <svg
+                      width="41"
+                      height="41"
+                      viewBox="0 0 41 41"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="20.4951" cy="20.9795" r="20" fill="#292524" />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M20.4951 11.9795C18.8383 11.9795 17.4951 13.3226 17.4951 14.9795C17.4951 16.6363 18.8383 17.9795 20.4951 17.9795C22.152 17.9795 23.4951 16.6363 23.4951 14.9795C23.4951 13.3226 22.152 11.9795 20.4951 11.9795ZM20.4951 19.9795C17.7337 19.9795 15.4951 17.7409 15.4951 14.9795C15.4951 12.2181 17.7337 9.97949 20.4951 9.97949C23.2565 9.97949 25.4951 12.2181 25.4951 14.9795C25.4951 17.7409 23.2565 19.9795 20.4951 19.9795Z"
+                        fill="#F0EBE7"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M26.4122 27.9795C25.9361 25.1418 23.4681 22.9795 20.4951 22.9795C17.5221 22.9795 15.0542 25.1418 14.5781 27.9795H26.4122ZM20.4951 20.9795C24.9134 20.9795 28.4951 24.5612 28.4951 28.9795C28.4951 29.5318 28.0474 29.9795 27.4951 29.9795H13.4951C12.9428 29.9795 12.4951 29.5318 12.4951 28.9795C12.4951 24.5612 16.0768 20.9795 20.4951 20.9795Z"
+                        fill="#F0EBE7"
+                      />
+                    </svg>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </section>
+  
+        <!-- hero -->
+  
+        <!-- <section class="container-xxl pb-5">
+          <div class="hero-card">
+            <div class="card-left">
+              <a class="bg-light p-2" href="#"
+                >The UKs No.1 marketplace for high-quality catering</a
+              >
+              <h1 class="hero-title pt-2">
+                Supplying Caterers for Every Occasion
+              </h1>
+              <p class="pt-2">
+                Find high-quality, Catering Excellence Benchmark™ verified,
+                caterers for any social, corporate or bespoke event.
+              </p>
+  
+              <div class="heros-btn pt-2 mb-5">
+                <button class="logos-btn btn btn-light rounded-5">
+                  <svg
+                    width="22"
+                    height="23"
+                    viewBox="0 0 22 23"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.01941 19.2112L18.9806 14.6491C17.4128 9.15246 13.0782 4.81784 7.58152 3.25L3.01941 19.2112Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M6.73304 6.20728L3.01941 19.2111L16.0233 15.4975C14.7444 11.0153 11.2152 7.48614 6.73304 6.20728Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M6.70839 12.4478C7.72903 12.4478 8.55291 11.6239 8.55291 10.6033C8.55291 9.58267 7.72903 8.75879 6.70839 8.75879C6.44401 8.75879 6.18578 8.82027 5.95829 8.91865L5.18359 11.6362C5.51561 12.122 6.07511 12.4478 6.70839 12.4478Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M9.78254 16.7517C9.78254 15.7311 8.95866 14.9072 7.93802 14.9072C6.91739 14.9072 6.09351 15.7311 6.09351 16.7517C6.09351 17.3112 6.35174 17.8093 6.74524 18.1474L9.69032 17.3051C9.74565 17.1268 9.78254 16.9485 9.78254 16.7517Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Food
+                </button>
+                <button class="logos-btn btn btn-light rounded-5">
+                  <svg
+                    width="14"
+                    height="19"
+                    viewBox="0 0 14 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_301_6012)">
+                      <path
+                        d="M2.14201 0.678467C1.23901 1.82525 0.700012 3.29775 0.700012 4.89918C0.700012 8.56347 3.52101 11.5356 7.00001 11.5356C10.479 11.5356 13.3 8.56347 13.3 4.89918C13.3 3.29775 12.761 1.82525 11.858 0.678467H2.14201Z"
+                        stroke="black"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M7 18.3214V11.5356"
+                        stroke="black"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M2.79999 18.3215H11.2"
+                        stroke="black"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M0.742004 4.72282C7.518 2.7346 6.41201 6.12068 13.195 6.12068"
+                        stroke="black"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_301_6012">
+                        <rect width="14" height="19" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  Drink
+                </button>
+                <button class="nav-btns btn btn-dark rounded-5">
+                  Get quotes
+                </button>
+              </div>
+  
+              <a href="#">Need inspiration? Browse our suppliers here</a>
+            </div>
+            <div class="card-right">
+              <img class="hero-img w-100" src="./img/Group 5285.svg" alt="hero" />
+            </div>
+  
+            <div class="card-info d-lg-none">
+              <img class="w-100 imge" src="./img/Group 5288.svg" alt="logo" />
+              <a class="card-links d-flex align-items-center gap-2" href="#">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.2766 9.15196L8.69326 10.5686L11.5266 7.7353M6.4512 3.97904C6.95946 3.93848 7.44196 3.73862 7.83003 3.40791C8.73562 2.63617 10.0676 2.63617 10.9732 3.40791C11.3612 3.73862 11.8437 3.93848 12.352 3.97904C13.538 4.07369 14.4799 5.01551 14.5745 6.20157C14.6151 6.70982 14.8149 7.19233 15.1456 7.5804C15.9174 8.48599 15.9174 9.81793 15.1456 10.7235C14.8149 11.1116 14.6151 11.5941 14.5745 12.1024C14.4799 13.2884 13.538 14.2302 12.352 14.3249C11.8437 14.3654 11.3612 14.5653 10.9732 14.896C10.0676 15.6678 8.73562 15.6678 7.83003 14.896C7.44196 14.5653 6.95946 14.3654 6.4512 14.3249C5.26515 14.2302 4.32332 13.2884 4.22867 12.1024C4.18811 11.5941 3.98825 11.1116 3.65754 10.7235C2.8858 9.81793 2.8858 8.48599 3.65754 7.5804C3.98825 7.19233 4.18811 6.70982 4.22867 6.20157C4.32332 5.01551 5.26515 4.07369 6.4512 3.97904Z"
+                    stroke="#111827"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Catering Excellence Benchmark
+              </a>
+            </div>
+          </div>
+        </section> -->
+
+        <section class="container-xxl pt-5">
+            <div class="hero-cards pt-5">
+                <h1 class="hero-title pb-5">
+                    Frequently Asked Questions
+                </h1>
+            </div>
+        </section>
+      </div>
+
+      <main>
+
+      <!-- category -->
+
+      <section class="container-xxl">
+        <div class="main-blog pt-5 row">
+          <div class="main-blog-left col-lg-4">
+            <h3 class="blog-title">
+              Category
+            </h3>
+            <div class="main-blog-link row">
+              <a href="#" class="pt-3">
+                <button class="blog-btn btn btn-outline-warning rounded-5">
+                  Lorem ipsum
+                </button>
+              </a>
+              <a href="#" class="pt-3">
+                <button class="blog-btn btn btn-outline-warning rounded-5">
+                  Dolor sit amet
+                </button>
+              </a>
+              <a href="#" class="pt-3">
+                <button class="blog-btn btn btn-outline-warning rounded-5">
+                  Nullam quis
+                </button>
+              </a>
+              <a href="#" class="pt-3">
+                <button class="blog-btn btn btn-outline-warning rounded-5">
+                  Magna interdum
+                </button>
+              </a>
+              <a href="#" class="pt-3">
+                <button class="blog-btn btn btn-outline-warning rounded-5">
+                  Dolor sit amet
+                </button>
+              </a>
+              <a href="#" class="pt-3">
+                <button class="blog-btn btn btn-outline-warning rounded-5">
+                  Nullam quis
+                </button>
+              </a>
+              <a href="#">
+                <button class="blog-btn btn btn-outline-warning rounded-5">
+                  Lorem ipsum
+                </button>
+              </a>
+              <a href="#" class="pt-3">
+                <button class="blog-btn btn btn-outline-warning rounded-5">
+                  Vestibulum
+                </button>
+              </a>
+              <a href="#" class="pt-3">
+                <button class="blog-btn btn btn-outline-warning rounded-5">
+                  Magna interdum
+                </button>
+              </a>
+            </div>
+
+            <div class="main-blog-card bg-dark rounded-3 p-5 mt-5">
+              <h3 class="swipper-title pt-2">
+                Need more help?
+              </h3>
+              <p class="swipper-text pt-2">
+                Don’t hesitate to reach out if you have any questions.
+              </p>
+              <button class="blog-btn btn btn-warning rounded-5">
+                Contact us
+              </button>
+
+              <h3 class="swipper-title pt-4">
+                Get in touch
+              </h3>
+              <a href="#" class="swipper-text pt-4">
+                hello@caterly.com
+              </a>
+              <h3 class="swipper-title pt-5">
+                Follow us
+              </h3>
+              <div class="main-blog-network d-flex align-items-center gap-2 pt-4">
+                <a href="#">
+                  <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_301_7100)">
+                    <path d="M18.3402 9.48358C18.3402 4.49835 14.2989 0.457031 9.31366 0.457031C4.32843 0.457031 0.287109 4.49835 0.287109 9.48358C0.287109 13.9889 3.58797 17.7233 7.90326 18.4005V12.0928H5.61136V9.48358H7.90326V7.49492C7.90326 5.23264 9.2509 3.98303 11.3127 3.98303C12.3 3.98303 13.3333 4.15933 13.3333 4.15933V6.3807H12.1951C11.0738 6.3807 10.7241 7.07656 10.7241 7.7911V9.48358H13.2275L12.8273 12.0928H10.7241V18.4005C15.0393 17.7233 18.3402 13.9889 18.3402 9.48358Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_301_7100">
+                    <rect width="18.0531" height="18.0531" fill="white" transform="translate(0.287109 0.457031)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+                </a>
+
+                <a href="#">
+                  <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_301_7101)">
+                    <path d="M5.73325 16.8176C12.2035 16.8176 15.7435 11.1735 15.7435 6.28052C15.7435 6.12185 15.7401 5.95966 15.7334 5.80099C16.4221 5.27677 17.0163 4.62746 17.4883 3.88355C16.847 4.18391 16.1661 4.38007 15.4688 4.46534C16.203 4.00211 16.7527 3.27439 17.016 2.41709C16.3254 2.84795 15.57 3.15188 14.7824 3.31587C14.2518 2.72233 13.5502 2.32934 12.786 2.19766C12.0219 2.06597 11.2378 2.20292 10.5551 2.58734C9.87232 2.97175 9.32887 3.58222 9.00876 4.32436C8.68865 5.06649 8.60971 5.89897 8.78415 6.69306C7.38564 6.61919 6.0175 6.23678 4.76841 5.57061C3.51932 4.90445 2.41716 3.96941 1.5334 2.8261C1.08422 3.6413 0.946772 4.60594 1.14899 5.52397C1.3512 6.442 1.8779 7.24455 2.62205 7.76849C2.06339 7.74982 1.51697 7.59149 1.02793 7.30659V7.35242C1.02743 8.20791 1.30839 9.03717 1.82305 9.69926C2.33772 10.3613 3.05432 10.8154 3.85105 10.9842C3.33354 11.1332 2.79039 11.155 2.26363 11.0477C2.48845 11.7834 2.92587 12.4269 3.51485 12.8883C4.10382 13.3497 4.81496 13.6061 5.54901 13.6216C4.3028 14.6521 2.76337 15.211 1.17866 15.2083C0.897629 15.2079 0.61687 15.1898 0.337891 15.154C1.94779 16.2412 3.82052 16.8187 5.73325 16.8176Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_301_7101">
+                    <rect width="17.1504" height="18.0531" fill="white" transform="translate(0.339844 0.457031)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+                </a>
+
+                <a href="#">
+                  <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_301_7102)">
+                    <path d="M9.51678 2.08252C11.9286 2.08252 12.2142 2.09309 13.1627 2.13541C14.0442 2.17419 14.5202 2.32228 14.8375 2.44569C15.2571 2.60789 15.5603 2.80534 15.8742 3.11916C16.1915 3.4365 16.3854 3.73621 16.5476 4.1558C16.671 4.47314 16.8191 4.95268 16.8579 5.83065C16.9002 6.78267 16.9108 7.06827 16.9108 9.47653C16.9108 11.8883 16.9002 12.1739 16.8579 13.1224C16.8191 14.0039 16.671 14.4799 16.5476 14.7973C16.3854 15.2169 16.188 15.5201 15.8742 15.8339C15.5568 16.1512 15.2571 16.3452 14.8375 16.5074C14.5202 16.6308 14.0406 16.7789 13.1627 16.8177C12.2106 16.86 11.925 16.8705 9.51678 16.8705C7.105 16.8705 6.8194 16.86 5.8709 16.8177C4.98941 16.7789 4.5134 16.6308 4.19606 16.5074C3.77646 16.3452 3.47323 16.1477 3.15941 15.8339C2.84207 15.5166 2.64814 15.2169 2.48595 14.7973C2.36254 14.4799 2.21445 14.0004 2.17566 13.1224C2.13335 12.1704 2.12277 11.8848 2.12277 9.47653C2.12277 7.06475 2.13335 6.77914 2.17566 5.83065C2.21445 4.94915 2.36254 4.47314 2.48595 4.1558C2.64814 3.73621 2.8456 3.43297 3.15941 3.11916C3.47675 2.80182 3.77646 2.60789 4.19606 2.44569C4.5134 2.32228 4.99293 2.17419 5.8709 2.13541C6.8194 2.09309 7.105 2.08252 9.51678 2.08252ZM9.51678 0.457031C7.06622 0.457031 6.75946 0.467609 5.79686 0.509921C4.83779 0.552233 4.17843 0.707377 3.60721 0.929515C3.01132 1.16223 2.5071 1.46899 2.00641 1.97321C1.5022 2.4739 1.19543 2.97812 0.962718 3.57049C0.74058 4.14522 0.585436 4.80106 0.543124 5.76013C0.500812 6.72625 0.490234 7.03301 0.490234 9.48358C0.490234 11.9341 0.500812 12.2409 0.543124 13.2035C0.585436 14.1626 0.74058 14.8219 0.962718 15.3932C1.19543 15.989 1.5022 16.4933 2.00641 16.994C2.5071 17.4946 3.01132 17.8049 3.60369 18.0341C4.17843 18.2563 4.83426 18.4114 5.79333 18.4537C6.75593 18.496 7.06269 18.5066 9.51326 18.5066C11.9638 18.5066 12.2706 18.496 13.2332 18.4537C14.1923 18.4114 14.8516 18.2563 15.4228 18.0341C16.0152 17.8049 16.5194 17.4946 17.0201 16.994C17.5208 16.4933 17.8311 15.989 18.0603 15.3967C18.2824 14.8219 18.4376 14.1661 18.4799 13.207C18.5222 12.2444 18.5328 11.9377 18.5328 9.48711C18.5328 7.03654 18.5222 6.72978 18.4799 5.76718C18.4376 4.80811 18.2824 4.14875 18.0603 3.57754C17.8381 2.97812 17.5314 2.4739 17.0272 1.97321C16.5265 1.47252 16.0222 1.16223 15.4299 0.933041C14.8551 0.710903 14.1993 0.555759 13.2402 0.513447C12.2741 0.467609 11.9674 0.457031 9.51678 0.457031Z" fill="white"/>
+                    <path d="M9.51754 4.84692C6.95767 4.84692 4.88086 6.92374 4.88086 9.48361C4.88086 12.0435 6.95767 14.1203 9.51754 14.1203C12.0774 14.1203 14.1542 12.0435 14.1542 9.48361C14.1542 6.92374 12.0774 4.84692 9.51754 4.84692ZM9.51754 12.4913C7.8568 12.4913 6.50987 11.1444 6.50987 9.48361C6.50987 7.82286 7.8568 6.47593 9.51754 6.47593C11.1783 6.47593 12.5252 7.82286 12.5252 9.48361C12.5252 11.1444 11.1783 12.4913 9.51754 12.4913Z" fill="white"/>
+                    <path d="M15.4189 4.66354C15.4189 5.26296 14.9323 5.74602 14.3364 5.74602C13.737 5.74602 13.2539 5.25943 13.2539 4.66354C13.2539 4.06412 13.7405 3.58105 14.3364 3.58105C14.9323 3.58105 15.4189 4.06764 15.4189 4.66354Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_301_7102">
+                    <rect width="18.0531" height="18.0531" fill="white" transform="translate(0.490234 0.457031)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-blog-right col-lg-8">
+            <h3 class="blog-title">
+              Lorem ipsum
+            </h3>
+            <div class="main-hr mt-3"></div>
+
+            <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+              </p>
+              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.71484 15.698L15.7148 5.698M5.71484 5.698L15.7148 15.698" stroke="#111827" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+
+            <p class="pt-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. 
+            </p>
+
+            <h3 class="blog-title pt-3">
+              Helpful articles and resources
+            </h3>
+            
+            <div class="main blog-card  row">
+              <div class="news--card col-lg-4">
+                <img class="img-fluid" src="./img/news-1.png" alt="news">
+                <button class="btn btn-warning rounded-5 mt-3">Category</button>
+                <h3 class="blog-title">
+                  Five benefits of having street food at your wedding
+                </h3>
+                <p>
+                  25 Aug 2022 
+                </p>
+              </div>
+              <div class="news--card col-lg-4">
+                <img class="img-fluid" src="./img/news-2.png" alt="news">
+                <button class="btn btn-warning rounded-5 mt-3">Category</button>
+                <h3 class="blog-title">
+                  Why it’s important to choose your own wedding caterer
+                </h3>
+                <p>
+                  25 Aug 2022 
+                </p>
+              </div>
+              <div class="news--card col-lg-4">
+                <img class="img-fluid" src="./img/news-2.png" alt="news">
+                <button class="btn btn-warning rounded-5 mt-3">Category</button>
+                <h3 class="blog-title">
+                  Why it’s important to choose your own wedding caterer
+                </h3>
+                <p>
+                  25 Aug 2022 
+                </p>
+              </div>
+            </div>
+
+            <div class="main-hr mt-3"></div>
+
+            <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+              </p>
+              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.71484 15.698L15.7148 5.698M5.71484 5.698L15.7148 15.698" stroke="#111827" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <p class="pt-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. 
+            </p>
+
+            <div class="main-hr mt-3"></div>
+
+            <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+              </p>
+              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.5007 3.42017V16.7535M17.5007 10.0868L3.50073 10.0868" stroke="#292524" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+
+            <div class="main-hr mt-3"></div>
+
+            <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+              </p>
+              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.5007 3.42017V16.7535M17.5007 10.0868L3.50073 10.0868" stroke="#292524" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+
+            <div class="main-hr mt-3"></div>
+
+            <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+              </p>
+              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.5007 3.42017V16.7535M17.5007 10.0868L3.50073 10.0868" stroke="#292524" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+
+            <div class="main-hr mt-3"></div>
+            
+            <!--  -->
+            <div class="main-blog-right col-lg-8 pt-5">
+              <h3 class="blog-title">
+                Lorem ipsum
+              </h3>
+              <div class="main-hr mt-3"></div>
+
+              <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </p>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.71484 15.698L15.7148 5.698M5.71484 5.698L15.7148 15.698" stroke="#111827" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+
+              <p class="pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. 
+              </p>
+
+              <h3 class="blog-title pt-3">
+                Helpful articles and resources
+              </h3>
+              
+              <div class="main blog-card  row">
+                <div class="news--card col-lg-4">
+                  <img class="img-fluid" src="./img/news-1.png" alt="news">
+                  <button class="btn btn-warning rounded-5 mt-3">Category</button>
+                  <h3 class="blog-title">
+                    Five benefits of having street food at your wedding
+                  </h3>
+                  <p>
+                    25 Aug 2022 
+                  </p>
+                </div>
+                <div class="news--card col-lg-4">
+                  <img class="img-fluid" src="./img/news-2.png" alt="news">
+                  <button class="btn btn-warning rounded-5 mt-3">Category</button>
+                  <h3 class="blog-title">
+                    Why it’s important to choose your own wedding caterer
+                  </h3>
+                  <p>
+                    25 Aug 2022 
+                  </p>
+                </div>
+                <div class="news--card col-lg-4">
+                  <img class="img-fluid" src="./img/news-2.png" alt="news">
+                  <button class="btn btn-warning rounded-5 mt-3">Category</button>
+                  <h3 class="blog-title">
+                    Why it’s important to choose your own wedding caterer
+                  </h3>
+                  <p>
+                    25 Aug 2022 
+                  </p>
+                </div>
+              </div>
+
+              <div class="main-hr mt-3"></div>
+
+              <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </p>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.71484 15.698L15.7148 5.698M5.71484 5.698L15.7148 15.698" stroke="#111827" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+              <p class="pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. 
+              </p>
+
+              <div class="main-hr mt-3"></div>
+
+              <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </p>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.5007 3.42017V16.7535M17.5007 10.0868L3.50073 10.0868" stroke="#292524" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+
+              <div class="main-hr mt-3"></div>
+
+              <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </p>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.5007 3.42017V16.7535M17.5007 10.0868L3.50073 10.0868" stroke="#292524" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+
+              <div class="main-hr mt-3"></div>
+
+              <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </p>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.5007 3.42017V16.7535M17.5007 10.0868L3.50073 10.0868" stroke="#292524" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+
+              <div class="main-hr mt-3"></div>
+            </div>
+
+            <!--  -->
+            <div class="main-blog-right col-lg-8 pt-5">
+              <h3 class="blog-title">
+                Lorem ipsum
+              </h3>
+              <div class="main-hr mt-3"></div>
+
+              <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </p>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.71484 15.698L15.7148 5.698M5.71484 5.698L15.7148 15.698" stroke="#111827" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+
+              <p class="pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. 
+              </p>
+
+              <h3 class="blog-title pt-3">
+                Helpful articles and resources
+              </h3>
+              
+              <div class="main blog-card  row">
+                <div class="news--card col-lg-4">
+                  <img class="img-fluid" src="./img/news-1.png" alt="news">
+                  <button class="btn btn-warning rounded-5 mt-3">Category</button>
+                  <h3 class="blog-title">
+                    Five benefits of having street food at your wedding
+                  </h3>
+                  <p>
+                    25 Aug 2022 
+                  </p>
+                </div>
+                <div class="news--card col-lg-4">
+                  <img class="img-fluid" src="./img/news-2.png" alt="news">
+                  <button class="btn btn-warning rounded-5 mt-3">Category</button>
+                  <h3 class="blog-title">
+                    Why it’s important to choose your own wedding caterer
+                  </h3>
+                  <p>
+                    25 Aug 2022 
+                  </p>
+                </div>
+                <div class="news--card col-lg-4">
+                  <img class="img-fluid" src="./img/news-2.png" alt="news">
+                  <button class="btn btn-warning rounded-5 mt-3">Category</button>
+                  <h3 class="blog-title">
+                    Why it’s important to choose your own wedding caterer
+                  </h3>
+                  <p>
+                    25 Aug 2022 
+                  </p>
+                </div>
+              </div>
+
+              <div class="main-hr mt-3"></div>
+
+              <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </p>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.71484 15.698L15.7148 5.698M5.71484 5.698L15.7148 15.698" stroke="#111827" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+              <p class="pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. 
+              </p>
+
+              <div class="main-hr mt-3"></div>
+
+              <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </p>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.5007 3.42017V16.7535M17.5007 10.0868L3.50073 10.0868" stroke="#292524" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+
+              <div class="main-hr mt-3"></div>
+
+              <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </p>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.5007 3.42017V16.7535M17.5007 10.0868L3.50073 10.0868" stroke="#292524" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+
+              <div class="main-hr mt-3"></div>
+
+              <div class="main-info-card d-flex align-items-center justify-content-between pt-3">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                </p>
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.5007 3.42017V16.7535M17.5007 10.0868L3.50073 10.0868" stroke="#292524" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </div>
+
+              <div class="main-hr mt-3"></div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+    </main>
+      
+
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

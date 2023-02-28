@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+h1, h2,  h5, h6{
+    color: #292524;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: -1px;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #292524;
+}
+
+a{
+    color: #292524;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+
+/* header */
+
+.nav-list{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-blog{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* logo */
+
+.hero-bg{
+    background: #F0EBE7;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    gap: 35px   ;
+}
+
+.hero-btn{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.nav-btn{
+    padding: 14px 32px;
+}
+
+.logo-btn{
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+/* hero */
+
+.hero-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-gap: 50px;
+}
+
+.hero-title{
+    font-size: 54px;
+    line-height: 72px;
+    letter-spacing: -1px
+}
+
+.heros-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logos-btn{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 14px 32px;
+}
+
+.nav-btns{
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 32px;
+}
+
+.logo-links{
+    margin-top: 125px;
+}
+
+
+/* main  */
+
+
+.main-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* explore */
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.info-card{
+    position: relative;
+}
+
+.info-title{
+    position: absolute;
+    left: 10px;
+    right: 34px;
+    bottom: 17px;
+    width: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: .4s ease linear;
+}
+
+.info-title:hover{
+    opacity: 1;
+}
+
+
+.info-right{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 10px;
+}
+
+.info-img{
+    width: 100%;
+}
+
+
+/* Food & Drink */
+
+.drink-card{
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
+    grid-gap: 12px;
+}
+
+/* Featured Suppliers */
+
+.swipper-slide{
+    position: relative;
+}
+
+.swipper-slide img{
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 100%);
+    mix-blend-mode: multiply;
+    border-radius: 5px;
+}
+.swipper-box{
+    position: absolute;
+    left: 40px;
+    right: 170px;
+    bottom: 40px;
+}
+
+.swipper-title{
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.swipper-text{
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.swiper-width{
+    width: 439.94px !important; 
+    height: 499.8px !important;
+}
+ .swiper-image{
+    width: 439.94px !important; 
+    height: 499.8px !important;  
+}
+
+/* How it works */
+
+.step-title{
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.card-blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+
+/* Why Caterly? */
+
+.caterly{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 120px;
+}
+
+/* What our customers say... */
+
+.main-swipper{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.swiper-card{
+    padding: 30px 30px;
+    width: 334.9px;
+    height: 283.49px;
+}
+.main-card-left{
+    width: 26%;
+}
+.customerSwiper {
+    width: 74%;
+}
+.ms-5 {
+    margin-right: 84px !important;
+    margin-left: 0px !important;
+}
+.h-6 {
+    height: 121px;
+}
+
+
+/* network-icon */
+
+.network-icon{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    align-items: center;
+    grid-gap: 10px;
+}
+
+/* footer */
+
+.footer-link{
+    color: #FDE047;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.footer-title{
+    color: #FAFAF9;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer-hr{
+    border: 1px solid #44403C;
+}
+.input-cart {
+    width: 80%;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+.input-link {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #A8A29E;
+    padding-bottom: 10px;
+}
+
+.footer-links{
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+
+
+
+/* 2 page */
+.bg-hero {
+    background: #FDE047;
+}
+
+/* main */
+
+/* category */
+
+.blog-title{
+    color: #262626;
+    letter-spacing: -0.651852px;
+    font-size: 30px;
+    line-height: 40px
+}
+
+.blog-btn{
+    padding: 16px 22px;
+    color: #292524;;
+}
+
+.main-hr{
+    border: 1.5px dashed #E7E5E4;
+}
