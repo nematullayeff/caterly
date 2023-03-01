@@ -32,6 +32,12 @@
 
 
 @media (max-width:768px){
+
+    .logo-bg{
+        background: #FDE047;
+        mix-blend-mode: normal;
+        border-radius: 42px;
+    }
     .hero-left{
         margin: 0 auto;
     }
@@ -63,14 +69,11 @@
     }
 
     .nav-btns{
-        padding: 13px;
+        padding: 16px;
     }
 
     .heros-btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 2px;
+        padding: 13px;
     }
     .swiper-slide{
         width: 334.54px !important; 

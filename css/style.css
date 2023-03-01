@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    /* font-family: 'Libre Baskerville', serif; */
 }
 
-body{
-    font-family: 'Hanken Grotesk', sans-serif;
-}
 
 ul{
     list-style: none;
@@ -37,6 +36,10 @@ a{
     text-decoration: none;
 }
 
+span{
+    font-style: italic;
+    font-family: 'Libre Baskerville', serif;
+}
 
 /* header */
 
@@ -88,6 +91,10 @@ a{
 
 /* hero */
 
+.logo-bg{
+    background: rgba(0, 0, 0, 0.1);
+}
+
 .hero-card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -98,28 +105,36 @@ a{
 .hero-title{
     font-size: 54px;
     line-height: 72px;
-    letter-spacing: -1px
+    letter-spacing: -1px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+
+.hero-title span{
+    font-style: italic!important;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .heros-btn{
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 21px 28px;
 }
 
 .logos-btn{
     display: flex;
     align-items: center;
     gap: 13px;
-    padding: 14px 32px;
+    padding: 21px 28px;
 }
 
 .nav-btns{
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 14px;
+    line-height: 17px;
     text-align: center;
     color: #FFFFFF;
-    padding: 14px 32px;
+    padding: 23px 32px;
 }
 
 .logo-links{
@@ -142,6 +157,10 @@ a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+}
+
+.info-titles span{
+    font-family: 'Libre Baskerville', serif;
 }
 
 .info-card{
@@ -239,12 +258,22 @@ a{
     grid-gap: 40px;
 }
 
+.works-img{
+    border-radius: 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
 /* Why Caterly? */
 
 .caterly{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 120px;
+}
+
+.nav-btns span{
+    font-family: 'Libre Baskerville', serif;
 }
 
 /* What our customers say... */
@@ -345,10 +374,11 @@ a{
 /* category */
 
 .blog-title{
+    padding-top: 15px;
     color: #262626;
     letter-spacing: -0.651852px;
-    font-size: 30px;
-    line-height: 40px
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .blog-btn{
